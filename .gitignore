@@ -66,6 +66,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
+post-service/.env
 .env
 .env.*
 !.env.example
@@ -137,3 +138,25 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Node modules
+frontend/node_modules/
+post-service/node_modules/
+comment=service/node_modules/
+
+# Terraform
+infra/.terraform/
+infra/**/*.tfstate
+infra/**/*.tfstate.*
+infra/terraform.tfvars
+infra/ecs-cluster/terraform.tfvars
+infra/alb/terraform.tfvars
+infra/alb-routing/terraform.tfvars
+infra/ecr-repos/terraform.tfvars
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
