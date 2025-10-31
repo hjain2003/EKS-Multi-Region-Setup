@@ -1,4 +1,4 @@
-# OpenForum - Microservices Architecture
+# EKS-MultiRegion microservices deployment
 
 A Reddit-like social media platform built with microservices architecture, featuring a React frontend and two Node.js backend services for posts and comments. The application is containerized with Docker and deployed on AWS ECS with Application Load Balancer for path-based routing.
 
